@@ -1,0 +1,251 @@
+/*
+    color: #E09D28;
+    color: #0F2942;
+*/
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(src/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(src/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url(src/fonts/Poppins/Poppins-Thin.ttf);
+}
+
+* {
+    margin: auto;
+    /* max-width: 1200px; */
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 800px;
+
+}
+
+section {
+    /* background-color: blueviolet; */
+}
+
+h1 {
+    font-family: "Poppins-Bold";
+    font-size: 40px;
+    /* background-color: purple; */
+}
+
+h2 {
+    font-family: "Poppins-Bold";
+    font-size: 30px;
+    /* background-color: aquamarine; */
+}
+
+h3 {
+    font-family: "Poppins-Bold";
+    font-size: 30px;
+    /* background-color: pink; */
+}
+
+p {
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    /* background: cyan; */
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin: 10px 0;
+}
+
+header div {
+    text-align: center;
+    margin: auto;
+}
+
+header div img {
+    width: 300px;
+}
+
+header nav ul {
+    justify-content: space-between;
+    height: 65px;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: ease-in-out 0.5s;
+    font-family: "Poppins-Regular";
+}
+
+header nav ul li:hover {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+    /* border-top: 2px solid #E09D28;
+    border-bottom: 2px solid #E09D28; */
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, transparent, #e09d28, transparent);
+    transform: scale(1.05);
+}
+
+
+h1 {
+    background-color: #0f2942;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    width: fit-content;
+    padding: 5px;
+    margin: 10px auto;
+    /* border-top: #E09D28 2px solid;
+    border-bottom: #E09D28 2px solid; */
+    border: solid;
+    border-image-slice: 70;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, transparent, #e09d28, transparent);
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    width: fit-content;
+    padding: 2px;
+    margin: 10px auto;
+    /* border-top: #E09D28 2px solid;
+    border-bottom: #E09D28 2px solid;     */
+    border: solid;
+    border-image-slice: 70;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, transparent, #e09d28, transparent);
+}
+
+p{
+    margin: 20px auto;
+}
+
+.btn-contato {
+    display: block;
+    background-color: #E09D28;
+    font-family: "Poppins-Bold";
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-contato:hover {
+    color: white;
+    background-color: #0f2942;
+    transition: ease-in-out 1s;
+    transform: scale(1.05);
+}
+
+#porque .resultados{
+    background-color: #0f2942;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    border-radius: 10px;
+}
+
+#porque .resultados div img{
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+#porque .resultados div p{
+    text-align: center;
+    max-width: 300px;
+}
+
+#sobre div img{
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    margin: 10px 0;
+}
+
+footer div {
+    text-align: center;
+    margin: auto;
+}
+
+footer div img {
+    width: 300px;
+}
+
+footer nav ul {
+    justify-content: space-between;
+    height: 65px;
+
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: ease-in-out 0.5s;
+    font-family: "Poppins-Regular";
+}
+
+footer nav ul li:hover {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+    border-top: 2px solid #E09D28;
+    border-bottom: 2px solid #E09D28;
+    transition: ease-in-out 0.4s;
+}
+
+.redes-sociais ul{
+    display: flex;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.redes-sociais ul li a{
+    transform: scale(1.3);
+    margin: 10px;
+    padding: 5px;
+    background-color: #0f2942;
+    border-radius: 50%;
+    color: white;
+}
+.redes-sociais ul li a:hover{
+    transform: scale(1.4);
+    transition: 1s;
+    margin: 10px;
+    padding: 5px;
+    background-color: #E09D28;
+    border-radius: 50%;
+    color: black;
+}
